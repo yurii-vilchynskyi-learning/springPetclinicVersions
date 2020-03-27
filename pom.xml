@@ -322,15 +322,4 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
-
-  <distributionManagement>
-    <snapshotRepository>
-      <uniqueVersion>true</uniqueVersion>
-      <id>jfrog_artifactory</id>
-      <name>Petclinic</name>
-      <url>https://jfrog.ukrtux.com/artifactory/petclinic/</url>
-      <layout>legacy</layout>
-    </snapshotRepository>
-  </distributionManagement>
-
 </project>
