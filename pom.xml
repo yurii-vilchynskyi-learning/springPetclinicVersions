@@ -4,8 +4,8 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.epam_labs.vilchynskyi</groupId>
-  <artifactId>LessonTwoPetClinic</artifactId>
-  <version>2.2.0.BUILD-SNAPSHOT</version>
+  <artifactId>JenkinsLessonTwo</artifactId>
+  <version>Job-D-SNAPSHOT</version>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -322,15 +322,4 @@
       </snapshots>
     </pluginRepository>
   </pluginRepositories>
-
-  <distributionManagement>
-    <snapshotRepository>
-      <uniqueVersion>true</uniqueVersion>
-      <id>jfrog_artifactory</id>
-      <name>Petclinic</name>
-      <url>https://jfrog.ukrtux.com/artifactory/petclinic/</url>
-      <layout>legacy</layout>
-    </snapshotRepository>
-  </distributionManagement>
-
 </project>
